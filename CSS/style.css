@@ -11,7 +11,7 @@
 /*HOME*/
 .main {
     display: flex;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.6), rgba(20, 20, 20, 0.75)), url(images/bg1.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.6), rgba(20, 20, 20, 0.75)), url(/images/bg1.jpg);
     background-size: cover;
     width: 100%;
     height: 768px;
@@ -59,7 +59,7 @@
 /*CONSULTORIA*/
 .consultoria {
     display: flex;
-    background-image: linear-gradient(rgba(17, 17, 17, 0.6), rgba(20, 20, 20, 0.75)), url(images/bg2.jpg);
+    background-image: linear-gradient(rgba(17, 17, 17, 0.6), rgba(20, 20, 20, 0.75)), url(/images/bg2.jpg);
     background-size: cover;
     width: 100%;
     height: 768px;
