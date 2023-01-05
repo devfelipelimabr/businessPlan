@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BFE Admin</title>
+    <!--CSS LOCAL-->
+    <link rel="stylesheet" href="/CSS/style.css">
 
     <!--BOOTSTRAP-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,8 +15,234 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
+    <!--ÍCONES-->
+    <script src="https://kit.fontawesome.com/08842a80db.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    
+    <div class="bfe-admin">
+        <div class="marketing-area">
+            <img src="images/bfe-sigla-logo.png" alt="BFE-logo">
+            <div class="text-marketing-area">
+                <h1>
+                    Sistema ERP online, integrado e sem complicação!
+                </h1>
+                <h3>
+                    Gestão empresarial em nuvem:
+                </h3>
+                <br>
+                <h2>
+                    Máxima economia, implementação rápida e suporte total.
+                </h2>
+            </div>
+            <div class="btns-area">
+                <button type="button" class="btn btn-light">Experimente grátis</button>
+                <button type="button" class="btn btn-light">Solicite uma proposta</button>
+            </div>
+        </div>
+
+        <div class="analytics-area">
+            <div class="nav-tabs-area">
+                <img src="images/logo-aguia.png" alt="AGUIA-logo">
+                <div class="nav-icons">
+                    <a href="#"><i class="fa-solid fa-house"></i></a>
+                    <a href="#"><i class="fa-solid fa-gear"></i></a>
+                </div>
+            </div>
+            <div class="tabs-area">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Análise de
+                            mercado</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                            type="button" role="tab" aria-controls="profile" aria-selected="false">Plano de
+                            marketing</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages"
+                            type="button" role="tab" aria-controls="messages" aria-selected="false">Processo
+                            operacional</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings"
+                            type="button" role="tab" aria-controls="settings" aria-selected="false">Análise
+                            financeira</button>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <div class="questions-area">
+                            <form action="#" method="post">
+                                <div class="visao-mercado">
+                                    <h1>visão geral do mercado</h1>
+                                    <ol type="1">
+                                        <li>Segmento de mercado identificado
+                                            <br>
+                                            <ol type="A">
+                                                <li>região geográfica
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>perfil de clientes
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li>posicionamento e competitividade do mercado
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li> Evolução deste mercado e do segmento específico nos últimos anos e quais as
+                                            perspetivas futuras
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="consumidores-pf">
+                                    <h1>CONSUMIDORES - PESSOA FÍSICA</h1>
+                                    <ol type="1">
+                                        <li> Perfil do consumidor:
+                                            <br>
+                                            <ol type="A">
+                                                <li>idade
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>perfil familiar
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>posição profissional
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>poder aquisitivo
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>local de residência ou trabalho
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                        <li> comportamento de consumo:
+                                            <br>
+                                            <ol type="A">
+                                                <li>como costuma se informar sobre este tipo de produto
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>local que costuman comprar este tipo de produto
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>Qual a importância atribuída à conveniência
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li> Principais benefícios que procuram no produto
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>Critérios aplicados para tomar suas decisões de compra
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>Quem toma a decisão de compra
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>Regularidade de compra
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>Qual a média de gasto por compra
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                            </ol>
+                                        </li>
+                                </div>
+                                <div class="btns-area">
+                                    <button type="button" class="btn btn-light">Enviar dados</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <div class="questions-area">
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
+                        <div class="questions-area">
+
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+                        <div class="questions-area">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="score-area">
+            <img src="images/logo-client.jpg" alt="client-image">
+            
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                  Progresso
+                </button>
+              </p>
+              <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                  <div class="card card-body" style="width: 300px; background-color: #2D212B; margin-top: 1rem;"><div class="score-content">
+                    <h3>análise de mercado</h3>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="31" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 31%">31%</div>
+                    </div>
+                    <h3>plano de marketing</h3>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%">70%</div>
+                    </div>
+                    <h3>processo operacional</h3>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="59" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 59%">59%</div>
+                    </div>
+                    <h3>análise financeira</h3>
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="77" aria-valuemin="0"
+                        aria-valuemax="100">
+                        <div class="progress-bar" style="width: 77%">77%</div>
+                    </div>
+                    
+                </div>
+                  </div>
+                </div>
+              </div>
+
+            
+        </div>
+
+    </div>
+
 </body>
+
 </html>
