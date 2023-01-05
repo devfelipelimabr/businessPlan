@@ -8,6 +8,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+
+/*RESPONSIVIDADE*/
+@media (max-width: 600px) {
+    .consultoria>.logo {
+        display: none;
+    }
+}
+
 /*****************INDEX**********************/
 /*HOME*/
 
@@ -109,13 +117,6 @@
     max-width: 10rem;
 }
 
-/*RESPONSIVIDADE*/
-@media (max-width: 600px) {
-    .consultoria>.logo {
-        display: none;
-    }
-}
-
 /************BFE-ADMIN*********************/
 .bfe-admin {
     display: flex;
@@ -155,7 +156,7 @@
     -webkit-text-stroke-color: #000;
 }
 
-.marketing-area>.btns-area{
+.marketing-area>.btns-area {
     width: 100%;
 }
 
@@ -194,18 +195,18 @@
 }
 
 .nav-icons>a:hover {
-    color: #81ffc4;    
+    color: #81ffc4;
 }
 
-.tabs-area{
+.tabs-area {
     overflow-y: scroll;
 }
 
-.questions-area{
+.questions-area {
     color: #E2E6E8;
 }
 
-.questions-area> form> div:nth-child(n) > h1{
+.questions-area>form>div:nth-child(n)>h1 {
     font-size: 1.5rem;
     font-weight: bold;
     text-transform: uppercase;
@@ -213,11 +214,11 @@
     -webkit-text-stroke-color: #000;
 }
 
-.questions-area> form> div:nth-child(n) > ol{
+.questions-area>form>div:nth-child(n)>ol {
     text-transform: capitalize;
 }
 
-.score-area{
+.score-area {
     display: flex;
     flex-direction: column;
     width: fit-content;
@@ -227,7 +228,7 @@
     border-radius: 1rem;
 }
 
-.score-area>img{
+.score-area>img {
     margin-bottom: 5rem;
     width: 100px;
     height: 60px;
@@ -237,13 +238,13 @@
 
 
 
-.score-content>h3{
+.score-content>h3 {
     color: #00ff88;
     font-size: 1rem;
     text-transform: capitalize;
     margin-top: 1rem;
 }
 
-.score-content>.progress{
+.score-content>.progress {
     height: 2rem;
 }
