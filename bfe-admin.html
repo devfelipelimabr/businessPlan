@@ -54,30 +54,30 @@
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                            type="button" role="tab" aria-controls="home" aria-selected="true">Análise de
+                        <button class="nav-link active" id="mercado-tab" data-bs-toggle="tab" data-bs-target="#mercado"
+                            type="button" role="tab" aria-controls="mercado" aria-selected="true">Análise de
                             mercado</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                            type="button" role="tab" aria-controls="profile" aria-selected="false">Plano de
+                        <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing"
+                            type="button" role="tab" aria-controls="marketing" aria-selected="false">Plano de
                             marketing</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages"
-                            type="button" role="tab" aria-controls="messages" aria-selected="false">Processo
+                        <button class="nav-link" id="operacional-tab" data-bs-toggle="tab" data-bs-target="#operacional"
+                            type="button" role="tab" aria-controls="operacional" aria-selected="false">Processo
                             operacional</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings"
-                            type="button" role="tab" aria-controls="settings" aria-selected="false">Análise
+                        <button class="nav-link" id="financeiro-tab" data-bs-toggle="tab" data-bs-target="#financeiro"
+                            type="button" role="tab" aria-controls="financeiro" aria-selected="false">Análise
                             financeira</button>
                     </li>
                 </ul>
 
                 <!-- Tab panes -->
                 <div class="tab-content">
-                    <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                    <div class="tab-pane active" id="mercado" role="tabpanel" aria-labelledby="mercado-tab" tabindex="0">
                         <div class="questions-area">
                             <form action="#" method="post">
                                 <div class="visao-mercado">
@@ -180,21 +180,191 @@
                         </div>
                     </div>
 
-                    <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                    <div class="tab-pane" id="marketing" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
                         <div class="questions-area">
-
+                            <form action="#" method="post">
+                                <div class="necessidades">
+                                    <h1>IDENTIFICAÇÃO DAS NECESSIDADES</h1>
+                                    <ol type="1">
+                                        <li>O que seu produto atenderá?
+                                            <br>
+                                            <ol type="A">
+                                                <li>Momento em que o produto está sendo conhecido por todos, ritmo lento de vendas e magens altas:
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>Nesse momento o produto começa a ser popularmente consumido, havendo um grande aumento nas vendas:
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>As vendas neste mercado se estabilizam e o esforço    é direcionado para manter a marca e reduzir custos:
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                                <li>As vendas e os lucros estão diminuindo neste mercado e o produto necessita ser recriado para um novo ciclo de vida:
+                                                    <br>
+                                                    <textarea class="msg"></textarea>
+                                                </li>
+                                            </ol>
+                                        </li>                                        
+                                    </ol>
+                                    <h1>estratégia de produto</h1>
+                                    <ol type="1">
+                                        <li>
+                                            QUALIDADE (durabilidade, resistência, confiabilidade)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="qualidade" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="qualidade" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="qualidade" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            IMAGEM (embalagem, logomarca, status associados, etc)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="imagem" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="imagem" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="imagem" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            INOVAÇÃO (o que seu produto ou serviço possui de novo no mercado)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="inovacao" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="inovacao" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="inovacao" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            INFORMAÇÃO (que informações facilitarão a compra do seu cliente ?)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="informacao" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="informacao" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="informacao" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            GARANTIA (como o cliente terá menos risco ao comprar seu produto)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="garantia" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="garantia" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="garantia" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            CONVENIÊNCIA ( como você economizará tempo e esforço do cliente)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="conveniencia" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="conveniencia" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="conveniencia" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            SERVIÇOS (que serviços estarão associados ao seu produto ?)
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="servicos" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="servicos" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="servicos" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                        <li>
+                                            OUTROS ASPECTOS DE VALOR AO CLIENTE
+                                            <fieldset class="questions-box">
+                                                <div>
+                                                    <input type="radio" name="outros" id="inferior">
+                                                    <label for="inferior">Inferior</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="outros" id="igual">
+                                                    <label for="igual">Igual</label>
+                                                </div>
+                                                <div>
+                                                    <input type="radio" name="outros" id="superior">
+                                                    <label for="superior">Superior</label>
+                                                </div>
+                                            </fieldset>
+                                        </li>
+                                    </ol>
+                                </div>
+                            </form>
                         </div>
                     </div>
 
-                    <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab" tabindex="0">
+                    <div class="tab-pane" id="operacional" role="tabpanel" aria-labelledby="operacional-tab" tabindex="0">
                         <div class="questions-area">
+                            <form action="#" method="post">
 
+                            </form>
                         </div>
                     </div>
 
-                    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+                    <div class="tab-pane" id="financeiro" role="tabpanel" aria-labelledby="financeiro-tab" tabindex="0">
                         <div class="questions-area">
+                            <form action="#" method="post">
 
+                            </form>
                         </div>
                     </div>
                 </div>

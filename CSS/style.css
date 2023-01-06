@@ -117,6 +117,35 @@
     max-width: 10rem;
 }
 
+/*FOOTER*/
+#footer-container {
+    background-color: #191016;
+    width: 100%;
+    margin: 0;
+    padding: 0 10vw;
+    color: #E2E6E8;
+}
+
+#footer-container>.row {   
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.footer-links{
+    color: #E2E6E8;
+    transition: 300ms;
+}
+
+.footer-links:hover{
+    opacity: 0.7;
+}
+
+#logo-footer-image{
+    max-width: 100px;
+    height: auto;
+}
+
 /************BFE-ADMIN*********************/
 .bfe-admin {
     display: flex;
@@ -202,11 +231,11 @@
     overflow-y: scroll;
 }
 
-#myTab>li>button{
+#myTab>li>button {
     color: #00ff88;
 }
 
-#myTab>li>.nav-link.active{
+#myTab>li>.nav-link.active {
     background-color: #2D212B;
 }
 
@@ -244,14 +273,14 @@
     border-radius: 10%;
 }
 
-.score-area>p>button{
+.score-area>p>button {
     color: #000;
     font-weight: bold;
     background-color: #00ff88;
     border: none;
 }
 
-.score-area>p>button:hover{
+.score-area>p>button:hover {
     background-color: #81ffc4;
     color: #000;
 }
