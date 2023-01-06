@@ -140,8 +140,8 @@
 }
 
 .marketing-area>img {
-    width: 100px;
-    height: 70px;
+    max-width: 100px;
+    height: auto;
 }
 
 .text-marketing-area {
@@ -179,8 +179,8 @@
 }
 
 .nav-tabs-area>img {
-    width: 97px;
-    height: 82px;
+    max-width: 100px;
+    height: auto;
 }
 
 .nav-icons {
@@ -204,6 +204,10 @@
 
 #myTab>li>button{
     color: #00ff88;
+}
+
+#myTab>li>.nav-link.active{
+    background-color: #2D212B;
 }
 
 .questions-area {
@@ -234,8 +238,8 @@
 
 .score-area>img {
     margin-bottom: 5rem;
-    width: 100px;
-    height: 60px;
+    max-width: 100px;
+    height: auto;
     border: solid 4px #2D212B;
     border-radius: 10%;
 }
