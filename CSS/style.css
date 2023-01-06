@@ -255,6 +255,10 @@
     text-transform: capitalize;
 }
 
+.questions-area>form>div:nth-child(n)>ol>li {
+    text-transform: capitalize;
+}
+
 .score-area {
     display: flex;
     flex-direction: column;
