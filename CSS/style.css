@@ -257,6 +257,7 @@
 
 .questions-area>form>div:nth-child(n)>ol>li {
     text-transform: capitalize;
+    margin-bottom: 1rem;
 }
 
 .score-area {
