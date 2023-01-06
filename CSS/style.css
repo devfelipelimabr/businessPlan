@@ -202,6 +202,10 @@
     overflow-y: scroll;
 }
 
+#myTab>li>button{
+    color: #00ff88;
+}
+
 .questions-area {
     color: #E2E6E8;
 }
@@ -236,7 +240,17 @@
     border-radius: 10%;
 }
 
+.score-area>p>button{
+    color: #000;
+    font-weight: bold;
+    background-color: #00ff88;
+    border: none;
+}
 
+.score-area>p>button:hover{
+    background-color: #81ffc4;
+    color: #000;
+}
 
 .score-content>h3 {
     color: #00ff88;
