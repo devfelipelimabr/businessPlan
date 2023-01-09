@@ -351,7 +351,7 @@
                                                 </div>
                                             </fieldset>
                                         </li>
-                                    </ol>                                    
+                                    </ol>
                                 </div>
                                 <div class="distribuicao">
                                     <h1>distribuição</h1>
@@ -384,8 +384,10 @@
                                                     <label for="representantes">representantes comerciais</label>
                                                 </div>
                                                 <div>
-                                                    <input type="checkbox" name="distribuicao" id="varejo-especializado">
-                                                    <label for="varejo-especializado">lojas de varejo especializado</label>
+                                                    <input type="checkbox" name="distribuicao"
+                                                        id="varejo-especializado">
+                                                    <label for="varejo-especializado">lojas de varejo
+                                                        especializado</label>
                                                 </div>
                                                 <div>
                                                     <input type="checkbox" name="distribuicao" id="internet">
@@ -399,7 +401,7 @@
                                                     <input type="checkbox" name="distribuicao" id="outros">
                                                     <label for="outros">outros</label>
                                                 </div>
-                                                
+
                                             </fieldset>
                                         </li>
                                     </ol>
@@ -415,7 +417,76 @@
                         tabindex="0">
                         <div class="questions-area">
                             <form action="#" method="post">
+                                <div class="processo-op">
+                                    <h1>processo operacional</h1>
+                                    <ol type="1">
+                                        <li>
+                                            Qual será a capacidade máxima de produção ou atendimento?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Qual será o volume de produção/atendimento inicial?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Quais serão os estoques iniciais de matéria-prima? Como serão armazenados?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Quais serão as funções e quem as desempenhará na empresa?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="layout-op">
+                                    <h1>layout</h1>
+                                    <ol type="1">
+                                        <li>
+                                            Por onde ocorrerão os fluxos de fabricação ou de tramitação de processos?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Qual o espaço útil disponível?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Qual será a disposição física dos postos de trabalho?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Qual será a movimentação de pessoas, produtos, materiais e documentos dentro
+                                            da empresa?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            O ambiente será favorável para o trabalho e o aumento da produtividade?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Haverá uma situação confortável a clientes e visitantes?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                        <li>
+                                            Quais serão as áreas de acesso restrito?
+                                            <br>
+                                            <textarea class="msg"></textarea>
+                                        </li>
+                                    </ol>
+                                </div>
 
+                                <div class="btns-area">
+                                    <button type="button" class="btn btn-light">Enviar dados</button>
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -423,7 +494,199 @@
                     <div class="tab-pane" id="financeiro" role="tabpanel" aria-labelledby="financeiro-tab" tabindex="0">
                         <div class="questions-area">
                             <form action="#" method="post">
+                                <div class="invest-fixo">
+                                    <h1>investimento fixo</h1>
+                                    <ol type="1">
+                                        <li>
+                                            <label for="construcoes">Construções</label>
+                                            <input type="number" name="invest-fixo" id="construcoes"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                        <li>
+                                            <label for="maquinas-equipamentos">máquinas e equipamentos</label>
+                                            <input type="number" name="invest-fixo" id="maquinas"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                        <li>
+                                            <label for="moveis-utensilios">móveis e utensílios</label>
+                                            <input type="number" name="invest-fixo" id="moveis-utensilios"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                        <li>
+                                            <label for="computadores">computadores</label>
+                                            <input type="number" name="invest-fixo" id="computadores"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                        <li>
+                                            <label for="franquia">taxa de franquia</label>
+                                            <input type="number" name="invest-fixo" id="franquia"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                        <li>
+                                            <label for="veiculos">veículos</label>
+                                            <input type="number" name="invest-fixo" id="veiculos"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                        <li>
+                                            <label for="outros">outros</label>
+                                            <input type="number" name="invest-fixo" id="outros"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                    </ol>
+                                </div>
 
+                                <div class="prazos-estoques">
+                                    <h1>prazos e estoques</h1>
+                                    <ol type="1">
+                                        <li>
+                                            politica de venda
+                                            <ol type="A">
+                                                <li>
+                                                    <label for="venda-avista">prazo médio de venda das mercadorias à
+                                                        vista</label>
+                                                    <input type="number" name="prazos-estoques" id="venda-avista"
+                                                        placeholder="Dias">
+                                                </li>
+                                                <li>
+                                                    <label for="venda-prazo">prazo médio de venda das mercadorias à
+                                                        prazo</label>
+                                                    <input type="number" name="prazos-estoques" id="venda-prazo"
+                                                        placeholder="Dias">
+                                                </li>
+                                            </ol>
+                                        </li>
+
+                                        <li>
+                                            politica de compra
+                                            <ol type="A">
+                                                <li>
+                                                    <label for="compra-avista">prazo médio de compra das mercadorias à
+                                                        vista</label>
+                                                    <input type="number" name="prazos-estoques" id="compra-avista"
+                                                        placeholder="Dias">
+                                                </li>
+                                                <li>
+                                                    <label for="compra-prazo">prazo médio de compra das mercadorias à
+                                                        prazo</label>
+                                                    <input type="number" name="prazos-estoques" id="compra-prazo"
+                                                        placeholder="Dias">
+                                                </li>
+                                            </ol>
+                                        </li>
+
+                                        <li>
+                                            <abbr title="Este quadro define qual deve ser o estoque mínimo necessário">
+                                                política de estoque</abbr>
+                                            <label for="politica-estoque">necessidade média de estoques</label>
+                                            <input type="number" name="politica-estoque" id="politica-estoque"
+                                                placeholder="Dias">
+                                        </li>
+
+                                        <li>
+                                            <abbr title="Este quadro define o valor do estoque inicial"> estimativa de
+                                                estoque inicial</abbr>
+                                            <label for="estimativa-estoque">estoque inicial</label>
+                                            <input type="number" name="estimativa-estoque" id="estimativa-estoque"
+                                                placeholder="Digite valor (R$)">
+                                        </li>
+                                    </ol>
+                                </div>
+
+                                <div class="custos-mao-obra">
+                                    <h1>custos com mão de obra</h1>
+                                    <form action="#" method="post">
+                                        <ol type="1">
+                                            <li>
+                                                <label for="cargo-funcao">cargo/função</label>
+                                                <input type="text" name="custos-mao-obra" id="cargo-funcao" required>
+                                            </li>
+                                            <li>
+                                                <label for="numero-funcionario">N° funcionário</label>
+                                                <input type="number" name="custos-mao-obra" id="numero-funcionario"
+                                                    required>
+                                            </li>
+                                            <li>
+                                                <label for="salario">salário</label>
+                                                <input type="number" name="custos-mao-obra" id="salario"
+                                                    placeholder="Digite valor (R$)" required>
+                                            </li>
+                                        </ol>
+
+                                        <div class="btns-area">
+                                            <button type="button" class="btn btn-light">cadastrar funcionário</button>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="custos-fixos">
+                                    <h1>custos fixos</h1>
+                                    <ol type="1">
+                                        <li>
+                                            <label for="agua">água</label>
+                                            <input type="number" name="custos-fixos" id="agua">
+                                        </li>
+                                        <li>
+                                            <label for="luz">luz</label>
+                                            <input type="number" name="custos-fixos" id="luz">
+                                        </li>
+                                        <li>
+                                            <label for="telefone">telefone</label>
+                                            <input type="number" name="custos-fixos" id="telefone">
+                                        </li>
+                                        <li>
+                                            <label for="contador">contador</label>
+                                            <input type="number" name="custos-fixos" id="contador">
+                                        </li>
+                                        <li>
+                                            <label for="despesas-veiculos">despesas com veículos</label>
+                                            <input type="number" name="custos-fixos" id="despesas-veiculos">
+                                        </li>
+                                        <li>
+                                            <label for="material-exp-cons">material de expediente e consumo</label>
+                                            <input type="number" name="custos-fixos" id="material-exp-cons">
+                                        </li>
+                                        <li>
+                                            <label for="aluguel">aluguel</label>
+                                            <input type="number" name="custos-fixos" id="aluguel">
+                                        </li>
+                                        <li>
+                                            <label for="seguros">seguros</label>
+                                            <input type="number" name="custos-fixos" id="seguros">
+                                        </li>
+                                        <li>
+                                            <label for="publicidade">publicidade</label>
+                                            <input type="number" name="custos-fixos" id="publicidade">
+                                        </li>
+                                        <li>
+                                            <label for="manutencao">manutenção</label>
+                                            <input type="number" name="custos-fixos" id="manutencao">
+                                        </li>
+                                        <li>
+                                            <label for="condominio">condomínio</label>
+                                            <input type="number" name="custos-fixos" id="condominio">
+                                        </li>
+                                        <li>
+                                            <label for="despezas-viagem">despezas de viagem</label>
+                                            <input type="number" name="custos-fixos" id="despezas-viagem">
+                                        </li>
+                                        <li>
+                                            <label for="servicos-terceiros">serviços de terceiros</label>
+                                            <input type="number" name="custos-fixos" id="servicos-terceiros">
+                                        </li>
+                                        <li>
+                                            <label for="onibus-taxis-selos">onibus taxis e selos</label>
+                                            <input type="number" name="custos-fixos" id="onibus-taxis-selos">
+                                        </li>
+                                        <li>
+                                            <label for="outros">outros</label>
+                                            <input type="number" name="custos-fixos" id="outros">
+                                        </li>                                        
+                                    </ol>
+                                </div>
+
+                                <div class="btns-area">
+                                    <button type="button" class="btn btn-light">Enviar dados</button>
+                                </div>
                             </form>
                         </div>
                     </div>
